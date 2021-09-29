@@ -1,6 +1,6 @@
 {
   "name": "context-hook-store",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Initializes store file using React Context Hook",
   "main": "dist/index.js",
   "scripts": {
