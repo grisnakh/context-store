@@ -1,10 +1,11 @@
 {
-  "name": "context-store",
-  "version": "1.0.0",
+  "name": "context-hook-store",
+  "version": "0.0.1",
   "description": "Initializes store file using React Context Hook",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && NODE_ENV=production babel lib --out-dir dist --copy-files"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,10 @@
   "devDependencies": {
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.5",
-    "@babel/preset-env": "^7.15.6"
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
   }
 }
