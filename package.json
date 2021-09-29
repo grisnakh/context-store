@@ -1,0 +1,23 @@
+{
+  "name": "context-store",
+  "version": "1.0.0",
+  "description": "Initializes store file using React Context Hook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grisnakh/context-store.git"
+  },
+  "keywords": [
+    "react",
+    "javascript"
+  ],
+  "author": "Leonidas Christou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grisnakh/context-store/issues"
+  },
+  "homepage": "https://github.com/grisnakh/context-store#readme"
+}
