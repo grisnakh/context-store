@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/grisnakh/context-store/issues"
   },
-  "homepage": "https://github.com/grisnakh/context-store#readme"
+  "homepage": "https://github.com/grisnakh/context-store#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6"
+  }
 }
