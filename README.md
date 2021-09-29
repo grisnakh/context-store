@@ -15,6 +15,6 @@ File defaultStore can be copied and placed anywhere in project, typically under 
 we will write all of our state variables, functions belonging to this store context etc.
 
 
-> ####Note:
+> #### Note:
 > This is not a ready to use package. Useful files are included in our project. Editing them accordingly
 can help us use the power of React hooks.
